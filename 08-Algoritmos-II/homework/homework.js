@@ -20,8 +20,8 @@ function quickSort(array) {
 
 function mergeSort(array) {
   // Implementar el método conocido como mergeSort para ordenar de menor a mayor
-  // el array recibido como parámetro
-  // Devolver el array ordenado resultante
+  // el array recibido como parámetro.
+  // Devolver el array ordenado resultante.
   // Tu código:
   if (array.length <= 1) return array;
 
@@ -46,7 +46,7 @@ function mergeSort(array) {
   return [...result, ...left, ...right];
 }
 
-// No modificar nada debajo de esta línea
+// No modificar nada debajo de esta línea.
 // --------------------------------
 
 module.exports = {
